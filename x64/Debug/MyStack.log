@@ -1,0 +1,18 @@
+﻿Сборка начата 10.10.2016 23:48:47.
+     1>Проект "D:\SuperGame\MyStack\MyStack.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Source.cpp
+         Source.cpp
+     1>d:\supergame\mystack\space2d.h(5): warning C4305: инициализация: усечение из "double" к "float"
+     1>d:\supergame\mystack\figures.h(165): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>d:\supergame\mystack\figures.h(166): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+     1>d:\supergame\mystack\source.cpp(36): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\conio.h(452): note:  см. объявление "getch"
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\SuperGame\x64\Debug\MyStack.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\SuperGame\x64\Debug\MyStack.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\SuperGame\x64\Debug\MyStack.lib" /MACHINE:X64 x64\Debug\Source.obj
+         MyStack.vcxproj -> D:\SuperGame\x64\Debug\MyStack.exe
+     1>Сборка проекта "D:\SuperGame\MyStack\MyStack.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.97
